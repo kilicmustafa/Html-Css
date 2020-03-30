@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Yatay Menu
+    </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+
+        a {
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            color: azure;
+            background-color: burlywood;
+            height: 50px;
+            line-height: 50px;
+            min-width: 140px;
+
+        }
+
+        .lists {
+            list-style-type: none;
+
+
+        }
+
+        .lists .list {
+            float: left;
+            margin-right: 4px;
+
+        }
+
+        .lists .special {
+            float: right;
+        }
+
+
+        .nav-container {
+            width: 1400px;
+            height: 50px;
+            margin: 0 auto;
+
+
+        }
+
+        .packet-menu {
+            list-style-type: none;
+            display: none;
+
+
+        }
+
+        .list a {
+            transition: all .4s;
+        }
+
+        .list:hover a,
+        .list a:hover {
+            background-color: chocolate;
+        }
+
+        .packet-menu .packet-person a {
+            text-align: left;
+            line-height: 40px;
+            background-color: #eaeaea;
+            color: #666;
+            padding: 5px;
+            padding-left: 0;
+
+
+        }
+
+        .list a:hover+.packet-menu,
+        .packet-menu:hover,
+        .packet-menu a:hover {
+            display: block;
+            background-color: darkseagreen;
+
+        }
+
+        .packet-menu .packet-person {
+            display: block;
+            float: none;
+
+        }
+
+
+
+
+
+
+        nav {
+
+            background-color: blanchedalmond;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+
+            <ul class="lists">
+                <li class="list"><a href="#">
+                        Home
+                    </a></li>
+                <li class="list">
+                    <a href="#">
+                        Sunumlar
+                    </a></li>
+                <li class="list">
+                    <a href="#">
+                        Dersler
+
+                    </a>
+
+
+                </li>
+                <li class="list">
+                    <a href="#">
+                        Paketler
+
+                    </a>
+
+                    <ul class="packet-menu">
+                        <li class="packet-person">
+                            <a href="">
+                                Backend programlama dilleri
+                            </a>
+                        </li>
+                        <li class="packet-person">
+                            <a href="">
+                                Frontend tasarımı
+                            </a>
+                        </li>
+                        <li class="packet-person">
+                            <a href="">
+                                java
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        Dersler
+
+                    </a>
+
+
+                </li>
+
+                <li class="list special">
+
+                    <a href="#">
+                        İleişim
+                    </a>
+                </li>
+            </ul>
+
+
+        </div>
+
+
+
+    </nav>
+
+
+</body>
+
+</html>

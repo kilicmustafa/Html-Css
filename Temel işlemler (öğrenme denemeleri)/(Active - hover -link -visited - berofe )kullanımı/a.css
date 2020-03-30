@@ -1,0 +1,82 @@
+p::first-line{
+    font-weight: bold;
+    color: brown;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+
+p.about::first-line{
+    color: green;
+}
+
+p::first-letter{
+    font-size: 48px;
+}
+
+p::after{
+    content:"";
+    display:block;
+    background-color:yellow;
+    padding: 10px;
+}
+
+p::before{
+    content:"Merhaba";
+    background-color: dodgerblue;
+}
+
+/*aaaaa */
+
+
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+ul li:first-child{
+    background-color:aquamarine;
+}
+
+ul li:last-child{
+    background-color:sandybrown;
+}
+
+ul li:nth-last-of-type(even){
+    color:red;
+}
+
+ul li:nth-last-of-type(odd){
+    color:darkviolet;
+}
+
+
+
+a:link{
+    color:firebrick;
+}
+
+a:visited{
+    color:gray;
+    
+}
+
+a:hover{
+    background-color:salmon;
+    
+}
+
+a:active{
+    background-color:skyblue;
+}
+
+span{
+    display: none;
+    background-color:aquamarine;
+    padding: : 20px;
+}
+
+div:hover span{
+    display: block;
+

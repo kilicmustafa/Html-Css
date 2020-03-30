@@ -1,0 +1,21 @@
+p[title]{
+    border: 1px soild gray;
+    padding: 5px;
+}
+
+p[title^= "second"]{
+    background-color:gold;
+    
+}
+
+p[title="first mam"]{
+    background-color: deeppink;
+}
+
+a[href$=".com"]{
+    color:red;
+}
+
+p[title~="mam"]{
+    color:aquamarine;
+}

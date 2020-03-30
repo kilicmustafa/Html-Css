@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Desing</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+
+        body {
+            margin: 30px auto;
+            ;
+        }
+
+        #form-1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 0%);
+
+            width: 400px;
+            height: 600px;
+        }
+
+        .form-control {
+
+            width: 100%;
+            padding: 10px;
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+
+        }
+
+        .form-control:focus {
+            border-color: #80bdff;
+            outline: 0;
+
+        }
+
+
+
+        .input-box label {
+            margin-bottom: 5px;
+
+        }
+
+        .btn {
+            color: #fff;
+            background-color: #007bff;
+            border: 1px solid #007bff;
+            padding: 6px 12px;
+            border-radius: 4px;
+            outline: 0;
+
+
+
+        }
+
+        .btn:hover {
+            background-color: #0069d9;
+            border-color: #0062cc;
+            margin-left: 25%;
+        }
+
+        .btn:focus {
+            background-color: red;
+            border-color: red;
+        }
+
+    </style>
+</head>
+
+<body style="position: relative">
+    <div id="form-1">
+
+        <div class="input-box">
+            <label for="fullname">Name:</label>
+            <input type="text" name="fullname" class="form-control">
+        </div>
+
+        <div class="input-box">
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" class="form-control">
+        </div>
+
+
+        <div class="input-box">
+            <label for="message">Message:</label>
+            <textarea name="message" class="form-control"></textarea>
+        </div>
+
+        <div class="input-box">
+            <label for="contry">Contry:</label>
+            <select name="contry" class="form-control">
+
+                <option value="turkiye">Turkiye</option>
+                <option value="almanya">Almanya</option>
+
+
+            </select>
+        </div>
+
+
+        <div class="">
+            <input type="submit" value="Submit" class="btn">
+
+        </div>
+
+    </div>
+
+    <br><br>
+    <hr><br><br>
+
+    <div id="form-2">
+
+        <div class="input-box">
+            <div class="tab-25">
+                <label for="fullname">
+                    Name:
+                </label>
+            </div>
+            <div class="tab-75">
+                <input type="text" name="fullname" class="form-control">
+
+            </div>
+
+        </div>
+
+        <div class="input-box">
+
+            <div class="tab-25">
+
+                <label for="email">Email:</label>
+
+            </div>
+            <div class="tab-75">
+                <input type="text" name="email" class="form-control">
+            </div>
+
+        </div>
+        <div class="input-box">
+            <div class="tab-25"> 
+                <label for="message">Message:</label>
+
+            </div>
+
+            <div class="tab-75">
+
+                <textarea name="message" class="form-control"></textarea>
+            </div>
+
+        </div>
+
+        <div class="input-box">
+
+            <div class="tab-25">
+
+                <label for="contry">Contry:</label>
+
+            </div>
+
+            <div class="tab-75">
+
+                <select name="contry" class="form-control">
+
+                    <option value="turkiye">Turkiye</option>
+                    <option value="almanya">Almanya</option>
+
+
+                </select>
+
+            </div>
+            <select name="contry" class="form-control">
+
+                <option value="turkiye">Turkiye</option>
+                <option value="almanya">Almanya</option>
+
+
+            </select>
+
+        </div>
+
+
+        <div class="">
+            <input type="submit" value="Submit" class="btn">
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form</title>
+    </head>
+    <body>
+       <form action="">
+           <p>
+            Ad : <input type="text" name="firstname" required placeholder="Adınızı giriniz">
+        </p>
+        
+        
+        <!-- required = doldurulması zorunlu yapar
+            placeholder = yer tutuculuk yapar
+        -->
+        <p>
+            Soyad : <input type="text" name="lastname" required placeholder="soyadınız">
+        </p>
+        
+        <p>
+            E-mail :<input type="email" name="mail" required placeholder="e-mailiniz">
+        </p>
+        <p>
+            Beni Hatırla <input type="checkbox" name="remember me" >
+        </p>
+        
+        <p>
+            Erkek <input type="radio" name="gender">
+            Kadın <input type="radio" name="gender">
+        </p>
+        
+        <p>
+           Sinema <input type="checkbox" name="cinema">
+           Spor <input type="checkbox" name="sport">
+           Kitap okuma <input type="checkbox" name="read_book">
+        </p>
+        
+        <p>
+           Nerede yaşıyorsun ;
+            <select name="Where_do_yo_live">
+                <option>İstanbul</option>
+                <option>Ankara</option>
+                <option>Fransa</option>
+            </select>
+        </p>
+        
+        <p>
+           Sevdiğin yiyecekler 
+            <select multiple name="Your_favorite foods">
+                <option>Makarna</option>
+                <option>patlıcan</option>
+            </select>
+        </p>
+        <input type=reset>
+        <input type="submit" value="Send">
+       </form>
+        
+    </body>
+</html>

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:gainsboro;
+}
+
+.box{
+    width: 25%;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.box img{
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    object-fit:none;
+    object-position: 20% 50%;
+}
+
+.box-body{
+   
+	
+}
+
+.box h4{
+    text-align:center;
+    padding-top: 5px;
+}
+
+
+.box p{
+    text-align: justify;
+    padding: 10px;
+    
+}
